@@ -1,0 +1,70 @@
+{
+  "movies" : [
+    {
+      "id": 1,
+      "genre": "Comedy",
+      "ratings": [
+        {
+          "rating_id": 1,
+          "rating": "G"
+        },
+        {
+          "rating_id": 2,
+          "rating": "PG"
+        },
+        {
+          "rating_id": 3,
+          "rating": "PG-13"
+        },
+        {
+          "rating_id": 4,
+          "rating": "R"
+        }
+      ]   
+    },
+    {
+      "id": 2,
+      "genre": "Action/Adventure",
+      "ratings": [
+        {
+          "rating_id": 1,
+          "rating": "G"
+        },
+        {
+          "rating_id": 2,
+          "rating": "PG"
+        },
+        {
+          "rating_id": 3,
+          "rating": "PG-13"
+        },
+        {
+          "rating_id": 4,
+          "rating": "R"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "genre": "Animated",
+      "ratings": [
+        {
+          "rating_id": 1,
+          "rating": "G"
+        },
+        {
+          "rating_id": 2,
+          "rating": "PG"
+        },
+        {
+          "rating_id": 3,
+          "rating": "PG-13"
+        },
+        {
+          "rating_id": 4,
+          "rating": "R"
+        }
+      ]
+    }
+  ]
+}
