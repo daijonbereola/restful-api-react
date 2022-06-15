@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Movies from "./Movies";
 
 const App = () => {
   return (
@@ -14,3 +15,7 @@ const App = () => {
 };
 
 export default App;
+
+/*}
+    
+*/

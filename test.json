@@ -1,67 +1,106 @@
 {
   "movies" : [
     {
-      "id": 1,
+      "genreId": 1,
       "genre": "Comedy",
       "ratings": [
         {
-          "rating_id": 1,
-          "rating": "G"
+          "ratingId": 1,
+          "rating": "PG",
+          "movie": [
+            {
+              "movieId": 7162021,
+              "title": "Space Jam: A New Legacy",
+              "url": "https://www.imdb.com/title/tt3554046/"
+            },
+            {
+              "movieId": 1092020,
+              "title": "The War With Grandpa",
+              "url": "https://www.imdb.com/title/tt4532038/"
+            },
+            {
+              "movieId": 681984, 
+              "title": "Ghostbusters (1984)",
+              "url": "https://www.imdb.com/title/tt0087332/"
+            }
+          ]
         },
         {
-          "rating_id": 2,
-          "rating": "PG"
+          "ratingId": 2,
+          "rating": "PG-13",
+          "movie": [
+            {
+              "movieId": 11192021,
+              "title": "Ghostbusters: Afterlife",
+              "url": "https://www.imdb.com/title/tt4513678/"
+            },
+            {
+              "movieId": 5282021,
+              "title": "Cruella",
+              "url": "https://www.imdb.com/title/tt3228774/"
+            },
+            {
+              "movieId": 572021, 
+              "title": "Here Today",
+              "url": "https://www.imdb.com/title/tt10944596/"
+            }
+          ]
         },
         {
-          "rating_id": 3,
-          "rating": "PG-13"
-        },
-        {
-          "rating_id": 4,
-          "rating": "R"
+          "ratingId": 3,
+          "rating": "R",
+          "movie": [
+            {
+              "movieId": 10222021,
+              "title": "The French Dispatch",
+              "url": "https://www.imdb.com/title/tt8847712/"
+            },
+            {
+              "movieId": 8241993,
+              "title": "Dazed and Confused",
+              "url": "https://www.imdb.com/title/tt0106677/"
+            },
+            {
+              "movieId": 4232021, 
+              "title": "Together Together",
+              "url": "https://www.imdb.com/title/tt11285280/"
+            }
+          ]
         }
       ]   
     },
     {
-      "id": 2,
+      "genreId": 2,
       "genre": "Action/Adventure",
       "ratings": [
         {
-          "rating_id": 1,
-          "rating": "G"
-        },
-        {
-          "rating_id": 2,
+          "ratingId": 1,
           "rating": "PG"
         },
         {
-          "rating_id": 3,
+          "ratingId": 2,
           "rating": "PG-13"
         },
         {
-          "rating_id": 4,
+          "ratingId": 3,
           "rating": "R"
         }
       ]
     },
     {
-      "id": 3,
+      "genreId": 3,
       "genre": "Animated",
       "ratings": [
         {
-          "rating_id": 1,
-          "rating": "G"
-        },
-        {
-          "rating_id": 2,
+          "ratingId": 1,
           "rating": "PG"
         },
         {
-          "rating_id": 3,
+          "ratingId": 2,
           "rating": "PG-13"
         },
         {
-          "rating_id": 4,
+          "ratingId": 3,
           "rating": "R"
         }
       ]

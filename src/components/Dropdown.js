@@ -1,10 +1,8 @@
 import MenuItems from "./MenuItems";
 
-
-const url = "http://localhost:8900/genre"
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
-    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+    const dropdownClass = depthLevel > 1? "dropdown-submenu" : "";
     return (
      <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
       {submenus.map((submenu, index) => (
