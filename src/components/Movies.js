@@ -1,32 +1,40 @@
-import React, {Component} from 'react';
-//import MovieListing from './MovieListing';
-import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
-const api = axios.create({
-    baseURL: `http://localhost:8900/genre/`
-})
+export default function Movies() {
+    const [error, setError] = useState(null);
+    const [isLoaded, setIsLoaded] = useState(false); 
+    const [movies, setMovies] = useState([]);
 
-export default class Movies extends Component {
-    constructor() {
-        super();
-        api.get('/').then(res => {
-            //console.log(res.data)
-            this.setState({
-                movies: res.data
-            })
-        })
-    }
-    render() {
+    const url = "http://localhost:8900/movies";
+
+    useEffect(() => {
+        fetch(url)
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    setIsLoaded(true);
+                    setMovies(result);
+                },
+                (error) => {
+                    setIsLoaded(true);
+                    setError(error);
+                }
+            )
+    }, [])
+
+    if (error) {
+        return <div>Error: {error.message}</div>;
+    } else if (!isLoaded) {
+        return <div>Loading...</div>;
+    } else {
         return (
-            <div>
-                {this.state.movies.map(movie => {
-                    return(
-                    <h2 key={movie.genreId}>
-                        {movie.genre}
-                    </h2>
-                    )
-                })}
-            </div>
-        )
+            <ul>
+                {movies.map(movie => (
+                    <li key = {movie.id}>
+                        <a href={movie.url}>{movie.title}</a>
+                    </li>
+                ))}
+            </ul>
+        );
     }
 }
