@@ -11,7 +11,7 @@ export default function Movies() {
     setSelectedMovie(JSON.parse(m.target.value));
     }
 
-    const url = "http://localhost:8900/movies";
+    const url = "https://my-json-server.typicode.com/daijonbereola/restful-api-react/movies";
 
     useEffect(() => {
         fetch(url)
