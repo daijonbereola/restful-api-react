@@ -8,11 +8,22 @@
     font-family: sans-serif;
   }
   
+  .select{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 10px auto;
+  }
+
+  .select select{
+    display: none;
+  }
+  /*
   header {
     height: 58px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     color: #212529;
   }
+  
   
   .nav-area {
     display: flex;
@@ -102,3 +113,4 @@
     left: 100%;
     top: -7px;
   }
+  */

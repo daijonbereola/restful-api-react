@@ -1,0 +1,58 @@
+{
+  "movies" : [
+    {
+      "id": 1,
+      "title": "Space Jam: A New Legacy",
+      "url": "https://www.imdb.com/title/tt3554046/",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWMyMDc3ODYtODMwZS00MGVjLWJhY2QtYWI1NDM0Y2RjOTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The War With Grandpa",
+      "url": "https://www.imdb.com/title/tt4532038/",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTlkZDQ1ODEtY2ZiMS00OGNhLWJlZDctYzY0NTFmNmQ2NDAzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    },
+    {
+      "id": 3, 
+      "title": "Ghostbusters (1984)",
+      "url": "https://www.imdb.com/title/tt0087332/",
+      "image" : "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ghostbusters: Afterlife",
+      "url": "https://www.imdb.com/title/tt4513678/",
+      "image" : "https://m.media-amazon.com/images/M/MV5BMmZiMjdlN2UtYzdiZS00YjgxLTgyZGMtYzE4ZGU5NTlkNjhhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cruella",
+      "url": "https://www.imdb.com/title/tt3228774/",
+      "image": "https://m.media-amazon.com/images/M/MV5BOWI5YTUxOWEtZmRiZS00ZmQxLWE2NzctYTRiODA2NzE1ZjczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+    },
+    {
+      "id": 6, 
+      "title": "Here Today",
+      "url": "https://www.imdb.com/title/tt10944596/",
+      "image": "https://m.media-amazon.com/images/M/MV5BODdjZGY0NzgtZjZjMS00NTQ2LWI4ZDYtNmY5MTk0MmY3ZDQ4XkEyXkFqcGdeQXVyMTA3MzQ4MTg0._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The French Dispatch",
+      "url": "https://www.imdb.com/title/tt8847712/",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Dazed and Confused",
+      "url": "https://www.imdb.com/title/tt0106677/",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 9, 
+      "title": "Together Together",
+      "url": "https://www.imdb.com/title/tt11285280/",
+      "image" : "https://m.media-amazon.com/images/M/MV5BYTI5MmQ0M2UtMjZkZC00Mjk1LTljZmItN2ZlYzQ3MDdkZTQ3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg"
+    }
+  ]
+}
